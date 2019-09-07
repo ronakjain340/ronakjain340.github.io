@@ -1,0 +1,80 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #fff;
+  font-family: "Helvetica", "cursive";
+  font-stretch: condensed;
+}
+.help{
+  background-color: #f6f6f6;
+  padding: 10px;
+  padding-left: 60%;
+  font-size: 15px;
+  font-family: "Lucida Grande";
+  color: #1818fe;
+}
+nav{
+  overflow: hidden;
+  display: block;
+  position: fixed;
+  width: 100%;
+//  border-bottom: 1px solid #c6c6c6;
+  background-color: white;
+  height: 77px;
+  box-shadow: 0px 5px 7px  #eaeaea;
+}
+nav h1{
+  font-size: 30px;
+  background: -webkit-linear-gradient(#1b1b54, #119de6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  float: left;
+  padding: 20px 0 0 100px;
+}
+nav ul{
+  text-align: right;
+  padding: 15px;
+  margin-right: 50px;
+}
+nav ul li{
+  display: inline-block;
+  padding: 14px;
+  color: #1b1b54;//656565
+}
+nav ul li:hover{
+  color: #00a6eb;
+  cursor: pointer;
+  border-bottom: 2px solid #00a6eb;
+  transition: 0.3s ease;
+}
+nav ul li a{
+  font-size: 90%;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li.selected{
+  border-bottom: 2px solid #00a6eb;
+}
+nav ul li a.selected{
+  color: #00a6eb;
+}
+
+.content {
+  padding: 0;
+}
+/*sticky nav bar*/
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  animation: ani 2s linear;
+
+}

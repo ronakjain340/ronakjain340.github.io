@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ranj</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+  </head>
+  <body>
+<!--header starts-->
+    <header>
+      <div class="help" id="help">
+        <p><b>For queries contact: +91-4079602385 | shreefinancecorporation@gmail.com</b></p>
+      </div>
+      <nav id="navbar">
+        <div class="menu">
+        <h1><a href="index.html">SHREE FINANCE CORPORATION</a></h1>
+        <ul>
+          <li class="selected"><a class="selected" herf="#">home</a></li>
+          <li><a herf="#">who are we</a></li>
+          <li><a herf="#">what we do</a></li>
+          <li><a herf="#">services</a></li>
+          <li><a herf="#">contact</a></li>
+          <li><a herf="#">blog</a></li>
+          <li><a herf="#">gallery</a></li>
+          <li><a herf="#">log in</a></li>
+        </ul>
+      </div>
+      </nav>
+    </header>
+    <div class="content">
+
+<!--Sliding image section -->
+<section>
+
+<img src="img/auto.jpg" alt="">
+
+</section>
+
+      </div>
+    </div>
+
+    <script>
+
+    window.onscroll = function() {myFunction()};
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+
+
+
+    }
+    </script>
+
+
+  </body>
+</html>
